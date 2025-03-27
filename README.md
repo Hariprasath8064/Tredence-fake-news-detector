@@ -1,1 +1,1 @@
-# Tredence-fake-news-detector
+# tredence-fake-news-detection
