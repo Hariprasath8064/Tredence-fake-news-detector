@@ -1,14 +1,12 @@
-Fake News & Deepfake Detection
+# Fake News & Deepfake Detection
 
-Devil's Pentagram
-
-Overview
+# Overview
 
 In today's digital landscape, misinformation is a major threat, influencing public opinion, undermining trust, and causing severe societal consequences. Our project aims to combat this issue by leveraging AI-driven solutions for detecting both textual fake news and deepfake videos.
 
-Features
+# Features
 
-Text-Based Fake News Detection: Uses an AI model to analyze headlines and classify them as real or fake.
+ Text-Based Fake News Detection : Uses an AI model to analyze headlines and classify them as real or fake.
 
 Deepfake Video Detection: Identifies manipulated video content using state-of-the-art deep learning techniques.
 
@@ -18,7 +16,7 @@ Confidence Score: Provides a probability score indicating the reliability of the
 
 Predefined Examples: Showcases sample cases of real and fake news for better understanding.
 
-Approach
+# Approach
 
 Our detection system follows a dual approach:
 
@@ -26,7 +24,7 @@ Textual Analysis: Machine learning models analyze linguistic patterns to identif
 
 Video Content Analysis: Deep learning models detect manipulated videos by evaluating frame inconsistencies.
 
-Technical Stack
+# Technical Stack
 
 Natural Language Processing (NLP): Analyzing and classifying news headlines.
 
@@ -36,15 +34,13 @@ Streamlit: Frontend framework for an interactive user experience.
 
 Python (Jupyter Notebook): Core development and training environment.
 
-Implementation Details
+# Implementation Details
 
 BiLSTM Model: Used for fake news detection.
 
-ViT Model: Trained on a smaller dataset due to limited computational resources.
+# Performance Metrics
 
-Performance Metrics
-
-Fake News Detection
+Fake News Detection:
 
 Accuracy: 86.88%
 
@@ -54,25 +50,26 @@ Recall: 72.47%
 
 F1-score: 72.68%
 
-Deepfake Detection
 
-Performance metrics to be added based on model evaluation.
-
-How to Use
+# How to Use
 
 Clone the Repository
 
+``` 
 git clone https://github.com/your-repo-name.git
-cd your-repo-name
+cd your-repo-name 
+
+```
 
 Install Dependencies
 
+```
 pip install -r requirements.txt
-
+```
 Run the Streamlit App
-
+```
 streamlit run app.py
-
+```
 Usage
 
 Enter a news headline or upload a video to analyze its authenticity.
